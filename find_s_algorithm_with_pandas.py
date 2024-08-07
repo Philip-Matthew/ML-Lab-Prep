@@ -34,3 +34,7 @@ training_data = read_csv(file_path)
 most_specific_hypothesis = find_s_algorithm(training_data)
 
 print("The most specific hypothesis is:", most_specific_hypothesis)
+
+
+# OUTPUT
+# The most specific hypothesis is: ['Sunny', ' Warm', ' High', ' Strong', '?', '?']

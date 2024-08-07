@@ -81,3 +81,7 @@ S, G = candidate_elimination(training_data)
 
 print("S (Specific boundary):", S)
 print("G (General boundary):", G)
+
+# OUTPUT
+# S (Specific boundary): {('Sunny', 'Warm', '?', 'Strong', '?', '?')}
+# G (General boundary): {('Sunny', '?', '?', 'Strong', '?', '?'), ('?', 'Warm', '?', 'Strong', '?', '?')}
